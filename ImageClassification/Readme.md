@@ -51,10 +51,10 @@ with strategy.scope():
 
 Our model achieved a **Test Accuracy of 63.52%**. 
 
-!\[Model Accuracy](![image](https://github.com/Luke-J-Miller/Showcase/assets/111100132/2e91b117-ceb8-4e14-bcd9-600682aa60b0)
-) 
+![image](https://github.com/Luke-J-Miller/Showcase/assets/111100132/2e91b117-ceb8-4e14-bcd9-600682aa60b0)
+ 
 
 The model loss over epochs is shown below:
 
-!\[Model Loss](![image](https://github.com/Luke-J-Miller/Showcase/assets/111100132/9503fc72-9390-4df0-9438-e9ce4535a876)
-) 
+![image](https://github.com/Luke-J-Miller/Showcase/assets/111100132/9503fc72-9390-4df0-9438-e9ce4535a876)
+ 
