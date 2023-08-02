@@ -27,24 +27,21 @@ Our model architecture comprises several Convolutional layers, each followed by 
  
 ## Compilation and Training
 
-The model is compiled with the Adam optimizer, categorical cross-entropy loss, and accuracy metric.
-
-```python
-opt = optimizers.Adam(learning_rate=0.001)
-model.compile(optimizer=opt, loss='categorical_crossentropy', metrics=['accuracy'])
-```
-
-We then train the model with distributed training strategy for 50 epochs and a batch size of 64, with early stopping monitoring the validation loss.
+The model is compiled with the Adam optimizer, categorical cross-entropy loss, and accuracy metric. We then train the model with distributed training strategy for 50 epochs and a batch size of 64, with early stopping monitoring the validation loss.
 
 ```python
 with strategy.scope():
-    history = model.fit(
-        data_gen.flow(x_train, y_train, batch_size=batch_size),
-        steps_per_epoch=len(x_train) / batch_size,
-        epochs=epochs,
-        validation_data=(x_test, y_test),
-        callbacks=[early_stopping]
-    )
+    epochs = 50
+    batch_size = 64
+    early_stopping = callbacks.EarlyStopping(monitor='val_loss', patience=10)
+    model = build_model()
+    # Adjust optimizer for mixed precision training
+    opt = optimizers.Adam(learning_rate=0.001)
+    #opt = tf.keras.mixed_precision.LossScaleOptimizer(opt)
+    
+    model.compile(optimizer=opt,
+                  loss='categorical_crossentropy',
+                  metrics=['accuracy'])
 ```
 
 ## Results
