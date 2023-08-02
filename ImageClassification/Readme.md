@@ -1,4 +1,4 @@
-# Impressive Image Classification Model
+# CIFAR-10 Image Classification Model
 
 ## Overview
 
