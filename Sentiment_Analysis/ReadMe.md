@@ -2,7 +2,7 @@
 
 This project is a Sentiment Analysis performed on a dataset of movie reviews. The aim of the project is to predict the sentiment of a movie review which can be either positive or negative. 
 
-The dataset consists of reviews and sentiments associated with them. 
+The dataset consists of reviews and sentiments associated with them from the IMDB Reviews Database.  https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews 
 
 ## Methods Used
 
