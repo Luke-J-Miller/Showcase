@@ -21,12 +21,15 @@ The project uses Natural Language Processing (NLP) techniques for the sentiment 
 There are two main visualizations in this project. These include:
 
 1. **Countplot of Sentiments:** This is a bar plot showing the number of positive and negative reviews in the dataset. It helps understand the distribution of sentiments in the dataset.
+     
    ![image](https://github.com/Luke-J-Miller/Showcase/assets/111100132/8f237063-8819-4702-a7e0-3920f7f40b20)
-
+  
 2. **Wordcloud** This was basically playing with a new tool.  I would like to play with the arguments to get something nicer.
+     
 ![image](https://github.com/Luke-J-Miller/Showcase/assets/111100132/9fa2d56f-1018-4956-ae53-4eae2f552917)
 
-3. **Confusion Matrix:** The confusion matrix is a heatmap that shows the number of true positives, true negatives, false positives, and false negatives predicted by the model. This gives a good idea of the model's performance. 
+3. **Confusion Matrix:** The confusion matrix is a heatmap that shows the number of true positives, true negatives, false positives, and false negatives predicted by the model. This gives a good idea of the model's performance.
+   
 ![image](https://github.com/Luke-J-Miller/Showcase/assets/111100132/fd4a5515-c4c8-43ec-a9c7-0f246cc4d48d)
 
 ## Conclusion
