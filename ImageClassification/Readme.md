@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project involves an image classification model that utilizes Convolutional Neural Networks (CNN), Data Augmentation, and Distributed Training strategies. The model achieves a **Test Accuracy of 63.52%**, which is impressive given the complexity of the image dataset.
+This project involves an image classification model that utilizes Convolutional Neural Networks (CNN), Data Augmentation, and Distributed Training strategies. The model achieves a **Test Accuracy of 66.40%**, which is impressive given the complexity of the image dataset.
 
 
 ## Data Augmentation
@@ -46,7 +46,7 @@ with strategy.scope():
 
 ## Results
 
-Our model achieved a **Test Accuracy of 63.52%**. 
+Our model achieved a **Test Accuracy of 66.40%**. 
 
 ![image](https://github.com/Luke-J-Miller/Showcase/assets/111100132/2e91b117-ceb8-4e14-bcd9-600682aa60b0)
  
