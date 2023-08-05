@@ -15,6 +15,9 @@ The project encompasses:
 - Visualizing the generated images.
 ## Results
 After training our GAN, we obtained a generator capable of creating realistic flower images and a discriminator able to distinguish between real and fake images.
+Real Images:  
+
+![image](https://github.com/Luke-J-Miller/Showcase/assets/111100132/9eff7312-1a10-4673-be16-9dd5092f92c3)
 
 Generated Images:  
   
