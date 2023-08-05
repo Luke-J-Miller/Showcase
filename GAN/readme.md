@@ -16,8 +16,10 @@ The project encompasses:
 ## Results
 After training our GAN, we obtained a generator capable of creating realistic flower images and a discriminator able to distinguish between real and fake images.
 
-Generated Images:
-Generated Images
+Generated Images:  
+  
+![image](https://github.com/Luke-J-Miller/Showcase/assets/111100132/161c7e91-5144-45d8-9631-ff8bd88c9921)
+
 
 Loss Plot:
 Loss Plot
